@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!--  CSS  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>About</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="secret.html">Secret (perhaps)</a>
+        </div>
+    </nav>
+	
+	<!--  按钮  -->
+	<theme-button value="dark" id="btn" size="3"></theme-button>
+	<script>
+	  document.body.style.backgroundColor = "#424242";
+	  btn.addEventListener("change", e => {
+		if (e.detail === 'dark') {
+		  document.body.style.backgroundColor = "#424242";
+		  document.body.style.color= "white"
+		  document.getElementById("版权说明").style.color = "cyan";
+		}
+		else {
+		  document.body.style.backgroundColor = "aliceblue";
+		  document.body.style.color= "black"
+		  document.getElementById("版权说明").style.color = "blue";
+		}
+	  });
+	</script>
+	<script src="script.js"></script>
+	<!--  按钮  -->
+
+    <h1>Introduction</h1>
+
+    <div>
+        <img src="Cat2.jpg" alt="cat" width="400px">
+    </div>
+	
+    <p>Fine. ’(°ー°〃) I hope you enjoy my meme home. Why do I make this website? Just because memes are funny.（ ￣ー￣）  <del>(especially cats)</del></p>
+    <hr>
+	<p>I got the botton from <a id="版权说明" href="https://github.com/Xiumuzaidiao/Day-night-toggle-button?tab=readme-ov-file" target="_blank">here</a>. (just to show my respect)</p>
+</body>
+</html>

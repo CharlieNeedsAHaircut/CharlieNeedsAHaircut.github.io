@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  transition: 0.5s;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+hr {
+  margin: 30px 40px;
+  width: 100%;
+}
+
+p {
+  max-width: 500px;
+}
+
+a {
+  text-decoration: none
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  background-color: rgb(156, 165, 187);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+nav div {
+  display: flex;
+  min-width: 300px;
+  justify-content: space-evenly;
+}
+
+nav div a {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+nav div a:visited {
+  color: black;
+}
+
+nav div a:hover {
+  color: gray;
+}
+
+h1 {
+  font-size: xx-large;
+  font-family: "Dancing Script", cursive;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: x-large;
+}
+del {
+  
+}
+	
+img {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+}
+
+ol {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  min-height: 40px;
+  min-width: 100px;
+  padding: auto auto auto auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ol div {
+  border-radius: 10px;
+  outline-style: solid;
+  overflow: hidden;
+}
+
+ol div a {
+  display: block;
+  text-decoration: none;
+}
+
+ol div a:visited {
+  color: black;
+}
+
+#green {
+  background-color: green;
+}
+
+#green:hover {
+  background-color: greenyellow;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#yellow:hover {
+  background-color: lightyellow;
+}
+
+#blue {
+  background-color: #5555ff;
+}
+
+#blue:hover {
+  background-color: lightblue;
+}
+
+#orange {
+  background-color: coral;
+}
+
+#orange:hover {
+  background-color: orange;
+}
+
+iframe {
+  margin: 50px 0px;
+}
+
+#牢大, #鸽鸽, #辣脆, #版权说明 {
+  color: cyan;
+}
+
+#听泉鉴猫 {
+  width: 55%;
+  height: auto;
+}
+
+#就一句话 {
+  margin: 0px 0px 20px 0px;
+}
